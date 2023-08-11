@@ -1,0 +1,101 @@
+.plan-card {
+    display: flex;
+}
+
+.plan{
+    background: white;
+    border-radius: 20px;
+    padding: 45px;
+    width: 75%;
+}
+
+.first-column {
+    width: 28%;
+}
+
+.selector-wraper {
+    height: 140px;
+    align-items: center;
+    display: flex;
+}
+
+.period-selector {
+    background: #01035d;
+    border-radius: 45px;
+    display: flex;
+    padding: 15px;
+    width: 56%;
+}
+
+.selected {
+    color: #01035d;
+    background: white;
+    border-radius: 30px;
+    display: flex;
+    padding: 15px;
+    width: auto;
+    cursor: pointer;
+}
+
+.unselected {
+    color: white;
+    background: #01035d;
+    border-radius: 30px;
+    display: flex;
+    padding: 15px;
+    width: auto;
+    cursor: pointer;
+}
+
+.list-item {
+    padding: 8px;
+    pointer-events: none;
+}
+
+.second-cloumn {
+    width: 72%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.plan-box {
+    background: #01035d;
+    border-radius: 5px;
+    height: 120px;
+    width: 130px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    pointer-events: none;
+}
+
+.center {
+    text-align: center;
+}
+
+.plan-box-wraper {
+    height: 140px;
+    pointer-events: none;
+}
+
+.selectedPlan {
+    cursor: pointer;
+}
+
+.unselectedPlan {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.submit-button{
+    height: 45px;
+    color: white;
+    background: #01035d;
+    border-radius: 5px;
+    border: none;
+    font-size: medium;
+    cursor:pointer;
+    width: 30%;
+    margin-top: 20px;
+  }

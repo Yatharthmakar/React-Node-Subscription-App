@@ -1,0 +1,58 @@
+.payment-card{
+    background: white;
+    border-radius: 26px;
+    width: 60%;
+    display: flex;
+}
+
+.payment-input-box{
+    width: 80%;
+    padding: 20px 20px 15px 60px;;
+    box-sizing: border-box;
+    color: rgb(68, 68, 68);
+    border-radius: 5px;
+    background-color: white;
+    background-image: url('credit-card.png');
+    background-repeat: no-repeat;
+  }
+
+  .payment-first-column{
+    padding: 45px;
+    color: rgb(61, 61, 61);
+    width: 60%;
+  }
+  
+  .payment-second-column{
+    padding: 45px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    width: 40%;
+    background: rgba(68, 68, 68, 0.313);
+  }
+
+  .payment-submit-button{
+    height: 45px;
+    color: white;
+    background: #01035d;
+    border-radius: 5px;
+    border: none;
+    font-size: medium;
+    cursor:pointer;
+    width: 70%;
+    margin-top: 20px;
+  }
+
+  .payment-summary-list{
+    height: 35px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .payment-error{
+    color: red;
+  }
+
+  .payment-input-wraper{
+    display: flex;
+    justify-content: space-between;
+  }

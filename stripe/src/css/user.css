@@ -1,0 +1,52 @@
+.user-plan{
+    background: white;
+    border-radius: 20px;
+    padding: 45px;
+    width: 35%;
+}
+
+.user-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.user-status-header{
+    display: flex;
+}
+
+.flex{
+    display: flex;
+}
+
+.user-changeplan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    padding: 5px;
+    color: blue;
+    border: 2px solid blue;
+}
+
+.user-period{
+    margin-top: 30px;
+    padding: 10px;
+    background: grey;
+    border-radius: 5px;
+}
+
+.user-active{
+    margin: 23px;
+    padding: 5px;
+    background: rgb(168, 168, 251);
+    color: blue;
+    border-radius: 12px;
+}
+
+.user-deactive{
+    margin: 23px;
+    padding: 5px;
+    background: rgb(253, 150, 150);
+    color: red;
+    border-radius: 12px;
+}
